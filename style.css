@@ -1,0 +1,433 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    background: #16213E;
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+    width: 100%;
+}
+.navber{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 1.50rem;
+    font-weight: 700;
+    margin: auto;
+    margin-left: 300px;
+    text-shadow: 0px 0px 15px white;
+}
+.logo span{
+    color: aqua;
+    text-shadow: 0px 0px 15px aqua;
+}
+.logo:hover{
+    font-size: 1.60rem;
+    transition: 0.3s linear;
+}
+.section a{
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: 1.08rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid transparent;
+    text-shadow: 0px 0px 15px white;
+}
+.section a:hover{
+    color: aqua;
+    border-bottom: 2px solid aqua;
+    transition: 0.2s ease-in;
+    text-shadow: 0px 0px 15px aqua;
+}
+/* Biodata start */
+
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.biodata{
+    color: white;
+    height: 400px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 300px;
+    margin-right: 100px;
+}
+.biodata h1{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.biodata span{
+    color:aqua;
+    text-shadow: 0px 0px 15px aqua;
+}
+.biodata .slogan{
+    color: #dddddd;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.biodata .bio{
+    color: #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+}
+.social{
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+}
+.social i{
+    font-size: 15px;
+    color: aquamarine;
+    text-shadow: 0px 0px 15px aqua;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    padding: 6px;
+    margin-right: 7px;
+}
+.social i:hover{
+    background-color: aqua;
+    border: none;
+    box-shadow: 0px 0px 15px aqua;
+    border: 2px solid aqua;
+    color: rgb(0, 0, 0);
+    transition: 0.3s linear;
+}
+.biobutton button{
+    font-weight: 700;
+    color: aqua;
+    text-shadow: 0px 0px 15px aqua;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 60px;
+    outline: 2px solid aqua;
+    margin-right: 15px;
+}
+.biobutton button:hover{
+    color: black;
+    font-weight: 700;
+    background-color: aqua;
+    outline: none;
+    box-shadow: 0px 0px 15px aqua;
+    transition: 0.3s ease;
+}
+.img{
+    background-image: url(img/img1.png);
+    background-size: cover;
+    height: 400px;
+    width: 400px; 
+    background-repeat: no-repeat;
+    border-radius: 50%; 
+    align-self: center;
+    margin-top: 100px;
+    box-shadow: 0px 0px 15px aqua;
+
+}
+.img:hover{
+    box-shadow: 0px 0px 30px aqua;
+    transition: 0.3s linear;
+}
+iframe{
+    border: none;
+    margin-bottom: 20px;
+}
+
+    /* About Start  */
+.about-main{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 500px;
+}
+.image{
+    background-image: url(img/img1.png);
+    background-size: cover;
+    height: 400px;
+    width: 350px;
+    margin-left: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px aquamarine;
+}
+.image:hover{
+    transform: scale(1.02);
+    transition: 0.3s linear;
+}
+.about-data{
+    width: 40rem;
+    height: fit-content;
+    margin-left: 60px;
+}
+.about-main h1{
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 0px 0px 10px white;
+}
+hr{
+    width: 150px;
+    color: aquamarine;
+}
+.about-data p{
+    font-size: 0.8rem;
+    color: #dddddd;
+    font-family: Arial;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.detail-box{
+    width: 40rem;
+    height: 12rem;
+    border: 2px solid aquamarine;
+    box-shadow: 0px 0px 15px aquamarine;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.detail-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.d1{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.d2{
+    margin: auto;
+    margin-bottom: 40px;
+    margin-right: 10px;
+}
+
+.detail-box span{
+    color: white;
+    text-shadow: none;
+   font-size: 1.01rem;
+}
+.detail-box li{
+    color: #dddddd;
+    font-weight: 700;
+    font-size: 0.9rem;
+    list-style-type: none;
+    margin-top: 15px;
+}
+.about-data button{
+    margin-top: 20px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border: 2px solid aquamarine;
+    box-shadow: 0px 0px 10px aquamarine;
+}
+.about-data button:hover{
+    background-color: aquamarine;
+    box-shadow: 0px 0px 15px aqua;
+    transition: 0.3s ease-in;
+    color: black;
+}
+.about-data button:active{
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+    
+/* Contact Start   */
+.main-contact{
+    height: 100vh;
+    width: 100%;
+}
+.heading{
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+span{
+    color: aqua;
+    text-shadow: 0px 0px 10px aqua;
+}
+.contact{
+    height: 600px;
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto ;
+    padding-bottom: 200px;
+}
+.input-item{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    width: 400px;
+    height: 60px;
+    border: none;
+    outline: 2px solid aqua;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-indent: 15px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.02rem;
+    box-shadow: 0px 0px 10px aqua;
+}
+.input:hover{
+    transform: scale(1.03);
+    transition: 0.3s linear;
+}
+.msg{
+    margin-top: 50px;
+}
+.send-msg input{
+    height: 250px;
+    width: 400px;
+    border: none;
+    outline: 2px solid aqua;
+    /* border-radius: 10px; */
+    border-radius: 40px 5px;
+    text-indent: 15px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.02rem;
+    box-shadow: 0px 0px 15px aqua;
+    text-align: center;
+}
+.send-msg input:hover{
+        transform: scale(1.02);
+        transition: 0.3s linear;
+}
+.msg-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.send{
+    width: 130px;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+    color: aquamarine;
+    text-shadow: 0px 0px 15px aqua;
+    border: none;
+    outline: 2px solid aqua;
+    cursor: grab;
+    border-radius: 10px;
+}
+.send:hover{
+    background-color: aqua;
+    box-shadow: 0px 0px 15px aqua;
+    color: black;
+    font-weight: 700;
+    transition: 0.3s linear;
+    outline: none;
+}
+.send:active{
+    transform: scale(0.9);
+}
+
+/* service start  */
+.service{
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: auto;
+}
+.service-box{
+    height: 300px;
+    width: 400px;
+    background-color: #111a22;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px aqua;
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service-box:hover{
+        transform: scale(1.02);
+        transition: 0.3s linear;
+        border-radius: 50px 4px;
+
+}
+.testimonial h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 0px 0px 10px white;
+    text-align: center;
+}
+.testimonial hr{
+    margin: auto;
+    width: 180px;
+    color: aqua;
+}
+.service-box i{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 30px #ffffff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: #111a22;
+    outline: 2px solid aqua;
+    outline-offset: 10px;
+    border-radius: 100%;
+}
+.service-box h3{
+    background-color: #111a22;
+    margin-bottom: 30px;
+    text-shadow: 0px 0px 15px white;
+}
+.service-box p{
+    color: #dddddd;
+    background-color: #111a22;
+    font-size: 0.76rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-indent: 10px;
+}
+     /* fotter */
+.bottom{
+    height: 120px;
+    width: 100%;
+    background-color: #1A1A2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 1.01rem;
+    text-shadow: 0px 0px 15px white;
+}
+.bottom p{
+    text-align: center;
+    background-color: #1A1A2E;
+}
